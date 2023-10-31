@@ -1,0 +1,30 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.right{
+    margin-right:0px;
+}
+#navbar ul {
+    display: flex;
+    font-family:cursive;
+    color:black;
+    padding-left: 5rem;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    
+    display: block;
+    margin: 7px;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
